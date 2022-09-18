@@ -155,15 +155,6 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-.banner9-img{
-	position: absolute;
-	background-image: url(video/car2.jpeg);
-	height: 10rem;
-	width: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
 
 .banner2-img{
 	position: absolute;
@@ -224,6 +215,42 @@ body{
 .banner8-img{
 	position: absolute;
 	background-image: url(video/tek.jpeg);
+	height: 10rem;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.banner9-img{
+	position: absolute;
+	background-image: url(video/car2.jpeg);
+	height: 10rem;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.banner10-img{
+	position: absolute;
+	background-image: url(video/camera.jpeg);
+	height: 10rem;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.banner11-img{
+	position: absolute;
+	background-image: url(video/i.jpeg);
+	height: 10rem;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.banner12-img{
+	position: absolute;
+	background-image: url(video/l.jpeg);
 	height: 10rem;
 	width: 100%;
 	background-position: center;
