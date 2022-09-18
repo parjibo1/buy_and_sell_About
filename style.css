@@ -1,0 +1,252 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+
+}
+h1{
+	text-align: center;
+	color:  green;
+	padding: 20px;
+}
+nav{
+	background-color: lime;
+	display: grid;
+	place-items: center;
+}
+nav ul{
+	list-style-type: none;
+}
+nav ul a{
+	display: inline-block;
+	padding: 20px;
+	text-decoration: none;
+	color: #000;
+	transition: 0.2s ease-in;
+	font-size: 18px;
+}
+nav ul a:hover{
+
+	background-color: green;
+	color: white;
+}
+body{
+	background-color: #f3f3f3;
+	font-family: 'poppins',sans-serif;
+
+}
+.menu{
+	padding: 0 10px 30px 10px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax (350px,1fr));
+}
+.heading{
+	background-color: red;
+	color: #ffff;
+	margin-bottom: 30px;
+   padding: 30px 0;
+   grid-column: 1/-1;
+   text-align: center;
+}
+.food-items{
+	display: grid;
+	position: relative;
+	grid-template-rows: auto 1fr;
+	border-radius: 15px;
+	box-shadow: 0 0 15px rgba(0, 0n, 0, 1);
+}
+.food-items img{
+position: relative;
+width: 100%;
+border-radius:  15px 15px 0 0;
+}
+h1{
+	grid-column: 1/-1;
+	text-align: center;
+}
+.details{
+	padding: 20px 10px;
+	display: grid;
+  grid-template-rows:  auto 1fr 50px;
+	grid-row-gap: 15px;
+
+}
+.details-sub{
+	display: grid;
+	grid-template-columns: auto auto;
+}
+.details-sub>h5{
+	font-weight: 600;
+	font-size: 18px;
+}
+.price{
+	text-align: right;
+}
+.details>p{
+color:  #6f6f6f;
+font-size: 15px;
+line-height: 28px;
+font-weight: 400;
+align-self: stretch;
+
+}
+.details>button{
+	background-color: #6f6f6f;
+	border: none;
+	color: white;
+	font-size: 16px;
+	font-weight: 600;
+	border-radius: 5px;
+	width: 100%;
+}
+
+
+:root{
+	--clr-primary:#651fff;
+	--clr-gray:#37474f;
+	--clr-gray-light:#b0bec5;
+}
+
+*{
+
+	box-sizing: border-box;
+	font-family: "open sans",sans-serif;
+	padding: 0;
+	margin: 0;
+}
+body{
+	color:var(--clr-gray);
+}
+.user{
+	text-align: center;
+
+}
+.wrapper-grid{
+	display:grid;
+	grid-template-columns: minmax(300px,1fr);
+	justify-content: center;
+	grid-gap:2rem;
+}
+.container{
+	box-shadow: 0px 2px 8px 0px var(--clr-gray-light);
+	text-align: center;
+	border-radius: 1rem;
+	position: relative;
+	overflow: hidden;
+
+}
+.banner-img{
+	position: absolute;
+	background-image: url(video/bike.jpeg);
+	height: 10rem;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.banner1-img{
+	position: absolute;
+	background-image: url(video/car.jpeg);
+	height: 10rem;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.banner2-img{
+	position: absolute;
+	background-image: url(video/iphone.jpeg);
+	height: 10rem;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.banner3-img{
+	position: absolute;
+	background-image: url(video/re.jpeg);
+	height: 10rem;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.banner4-img{
+	position: absolute;
+	background-image: url(video/land.jpeg);
+	height: 10rem;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.banner5-img{
+	position: absolute;
+	background-image: url(video/lap.jpeg);
+	height: 10rem;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.banner6-img{
+	position: absolute;
+	background-image: url(video/speaker.jpeg);
+	height: 10rem;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.banner7-img{
+	position: absolute;
+	background-image: url(video/car1.jpeg);
+	height: 10rem;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.banner8-img{
+	position: absolute;
+	background-image: url(video/tek.jpeg);
+	height: 10rem;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.profile-img{
+	width: 8rem;
+	clip-path: circle(60px at center);
+	margin-top: 4.5rem;
+}
+.name{
+	font-size: 1.5rem;
+}
+.description{
+	margin: 1rem 2rem;
+	font-size: 0..9rem;
+}
+.h2{
+	text-align: center;
+}
+.btn{
+	width: 100%;
+	border: none;
+	font-size: 1rem;
+	font-weight: bold;
+	color: wheat;
+	background-color: var(--clr-primary);
+	padding: 1rem;
+}
+@media screen and(min-width:500px) {
+	.wrapper-grid{
+      grid-template-columns: repeat(2,1fr);
+	}
+}
